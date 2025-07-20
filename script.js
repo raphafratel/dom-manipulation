@@ -33,7 +33,7 @@ const resquisito06 = () => {
     const element = pCenterContent[index];
     textos.push(element.innerHTML);
   }
-  document.querySelector('footer p').innerHTML = textos.join(', ');
+  document.querySelector('footer p').innerHTML = textos.join(' ');
 };
 
 resquisito01();
